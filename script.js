@@ -10,7 +10,6 @@ $('#subBtn').on('click', function(event) {
         console.log('Response  is ',response);
         return response.json();
     })
-
 .then(function(data) {
     var ly = document.getElementById('lyrics');
     ly.innerHTML = data.lyrics;
